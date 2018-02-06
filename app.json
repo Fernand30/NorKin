@@ -1,15 +1,34 @@
 {
   "expo": {
-    "name": "Profile",
+    "name": "Kinder-id",
     "description": "This project is really great.",
-    "slug": "Profile",
+    "slug": "Kinder-id",
     "privacy": "public",
     "sdkVersion": "24.0.0",
-    "platforms": ["ios", "android"],
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "resizeMode": "contain"
+    },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kinder-id.kinder-id",
+      "publishBundlePath": "ios/kinder-id/Supporting/shell-app.bundle",
+      "publishManifestPath": "ios/kinder-id/Supporting/shell-app-manifest.json"
+    },
+    "android": {
+      "package": "com.kinder-id.kinder-id"
+    },
+    "isDetached": true,
+    "detach": {
+      "scheme": "exp4a0b0de3243a4bb5af632efe001f3b02",
+      "iosExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/ios-v2.2.1-sdk24.0.0-36ff2264-629d-44df-a819-8c982454e5e8.tar.gz",
+      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v2.2.0-sdk24.0.0-16620828-4df4-4e2d-b0af-5dc1352b82cb.tar.gz"
     }
   }
 }
