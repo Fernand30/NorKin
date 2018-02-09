@@ -13,6 +13,7 @@ import Register from './screens/Register';
 import Password from './screens/Password';
 import MainScreen from './screens/MainScreen';
 import AddPictureLI from './screens/AddPictureLI';
+import MenuScreen from './screens/Menu';
 import Profile from './screens/Profile';
 import LostBracelet from './screens/LostBracelet';
 import MapScreen from './screens/FinderMap'
@@ -36,7 +37,8 @@ const AppNavigator =  StackNavigator({
       LostBracelet: { screen: LostBracelet},
       MapScreen: { screen: MapScreen },
       ReunitedScreen: { screen: ReunitedScreen },
-      MichaelMissingScreen: { screen: MichaelMissingScreen }
+      MichaelMissingScreen: { screen: MichaelMissingScreen },
+      MenuScreen: { screen: MenuScreen }
 
     },{
       swipeEnabled: false,

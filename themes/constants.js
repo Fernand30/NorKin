@@ -45,6 +45,7 @@ const Constants = {
     Font18: responsiveFontSize(1.8),
     Font19: responsiveFontSize(1.9),
     Font20: responsiveFontSize(2),
+    Font23: responsiveFontSize(2.3),
     Font25: responsiveFontSize(2.5),
     Font30: responsiveFontSize(3),
     Font40: responsiveFontSize(4),

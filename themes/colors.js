@@ -5,6 +5,8 @@ const colors = {
   backgroundSecondary : '#fa7d64',
   backgroundThird : '#fa7d64',
   brandThird: '#fa7d64',
+  done: '#f97e7f',
+  version: '#9a9a9a',
 
   textPrimary: 'white',
   textSecondary: '#0986b1',

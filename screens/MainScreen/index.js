@@ -49,7 +49,8 @@ class MainScreen extends Component {
     this.props.navigation.navigate('AddPictureLI');
   }
   goEdit(){
-    this.props.navigation.navigate('Profile');
+    //this.props.navigation.navigate('Profile');
+    this.props.navigation.navigate('MenuScreen');
   }
 
   goLocation(){
